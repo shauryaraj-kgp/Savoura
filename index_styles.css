@@ -1,0 +1,1107 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+/*font-family: 'Salsa', cursive;*/
+
+body {
+    background-image: url(images/doodles.png);
+    margin: 0%;
+    font-family: 'Salsa', cursive;
+}
+
+/*NAVIGATION BAR*/
+
+.navbar {
+    background-color: rgb(189, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    width: 100vw;
+    height: 14vh;
+    position: fixed;
+    top: 0;
+}
+
+.navbar_left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_image img {
+    width: 11vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.navbar_name {
+    color: aliceblue;
+    padding-left: 3vh;
+    font-size: 4.2vw;
+    padding-top: 0vh;
+}
+
+.navbar_cart a img {
+    width: 6vw;
+    padding-left: 2vh;
+    padding-right: 5vh;
+}
+
+.navbar_item a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-size: 1.7vw;
+    margin-top: 1vh;
+}
+
+.navbar_item a:hover {
+    color: rgb(255, 179, 179);
+    transition: 0.2s ease-in-out;
+}
+
+/*CONTENTS*/
+
+.contents {
+    background-color: rgba(255, 179, 179, 0.87);
+    height: 86vh;
+    margin-top: 14vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/*HOME*/
+
+.home {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 17vh;
+    padding-top: 4vh;
+}
+
+.home_left {
+    padding-top: 23vh;
+    width: 60vw;
+    justify-content: center;
+}
+
+.home_name {
+    color: rgb(189, 22, 22);
+    font-size: 15vh;
+    text-align: center;
+}
+
+.home_descrip {
+    text-align: center;
+    font-size: 3.2vh;
+}
+
+.home-right {
+    width: 40vw;
+}
+
+.home_link {
+    text-align: center;
+    padding-top: 8vh;
+}
+
+.home_link a {
+    font-size: 3vh;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(189, 22, 22);
+    padding: 1.5vh 1.1vw;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.home_link a:hover {
+    font-size: 3.2vh;
+    color: rgb(255, 179, 179);
+    transition: all 0.2s ease-in-out;
+}
+
+.home_right img {
+    padding-top: 13vh;
+    height: 55vh;
+}
+
+/*MENU*/
+
+.menu_name {
+    text-align: center;
+    font-size: 4.2vw;
+    color: rgb(189, 22, 22);
+    padding-top: 2vh;
+}
+
+.menu_descrip {
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+/*STARTERS*/
+
+.starter_name {
+    text-align: center;
+    color: rgb(189, 22, 22);
+    font-size: 3vw;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+}
+
+.all_starters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vw;
+}
+
+.starter_grid {
+    display: flex;
+}
+
+.starter_item_1,
+.starter_item_2,
+.starter_item_3,
+.starter_item_4 {
+    margin: 2vh 0.8vw;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.starter_item_wrapper {
+    background-color: rgba(255, 179, 179, 0.7);
+    padding: 1.4vw;
+    width: 20vw;
+    height: 42vh;
+}
+
+.starter_item_wrapper:hover {
+    background-color: rgba(255, 179, 179, 0.45);
+    padding: 1.4vw 1.9vw;
+    height: 44vh;
+    transition: all 0.2s ease-in-out;
+}
+
+.starter_item_1:hover,
+.starter_item_2:hover,
+.starter_item_3:hover,
+.starter_item_4:hover {
+    margin: 1vh 0.3vw;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.starter_item_1 {
+    background-image: url(images/Paneer\ tikka\ kabab.jpeg);
+    background-size: cover;
+}
+
+.starter_item_2 {
+    background-image: url(images/Cheese\ Stuffed\ Mushrooms.jpeg);
+    background-size: cover;
+}
+
+.starter_item_3 {
+    background-image: url(images/Chicken\ tikka\ kabab.jpeg);
+    background-size: cover;
+}
+
+.starter_item_4 {
+    background-image: url(images/tandoori\ acahari\ prawns.jpeg);
+    background-size: cover;
+}
+
+.starter_item_name {
+    text-align: center;
+    font-size: 1.6vw;
+    height: 12vh;
+}
+
+.starter_item_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.starter_item_logo img {
+    height: 5vh;
+}
+
+.starter_item_price {
+    font-size: 1.4vw;
+}
+
+.starter_item_descrip {
+    text-align: center;
+    height: 16vh;
+}
+
+.starter_item_cart {
+    text-align: center;
+}
+
+.starter_item_cart button {
+    background-color: rgb(189, 22, 22);
+    border-width: 2px;
+    margin-top: 2.5vh;
+    padding: 1vh 1.5vh;
+    border-color: black;
+    box-shadow: 2px 2px 8px 0 black;
+    border-radius: 10px;
+}
+
+.starter_item_cart button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1vw;
+    font-family: 'Salsa', cursive;
+}
+
+.starter_know {
+    text-align: end;
+    padding-right: 5vw;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+}
+
+.starter_know a {
+    text-decoration: none;
+    color: rgb(189, 22, 22);
+    font-size: 2vw;
+}
+
+/*MAIN COURSE*/
+
+.main_name {
+    text-align: center;
+    color: rgb(189, 22, 22);
+    font-size: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.all_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vw;
+}
+
+.main_grid {
+    display: flex;
+}
+
+.main_item_1,
+.main_item_2,
+.main_item_3,
+.main_item_4 {
+    margin: 2vh 0.8vw;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.main_item_wrapper {
+    background-color: rgba(255, 179, 179, 0.7);
+    padding: 1.4vw;
+    width: 20vw;
+    height: 42vh;
+}
+
+.main_item_wrapper:hover {
+    background-color: rgba(255, 179, 179, 0.45);
+    padding: 1.4vw 1.9vw;
+    height: 44vh;
+    transition: all 0.2s ease-in-out;
+}
+
+.main_item_1:hover,
+.main_item_2:hover,
+.main_item_3:hover,
+.main_item_4:hover {
+    margin: 1vh 0.3vw;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.main_item_1 {
+    background-image: url(images/paneer\ do\ pyaaza.jpeg);
+    background-size: cover;
+}
+
+.main_item_2 {
+    background-image: url(images/mushroom-masala.jpeg);
+    background-size: cover;
+}
+
+.main_item_3 {
+    background-image: url(images/chicken\ kofta.jpeg);
+    background-size: cover;
+}
+
+.main_item_4 {
+    background-image: url(images/chicken\ handi.jpeg);
+    background-size: cover;
+}
+
+.main_item_name {
+    text-align: center;
+    font-size: 1.6vw;
+    height: 12vh;
+}
+
+.main_item_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_item_logo img {
+    height: 5vh;
+}
+
+.main_item_price {
+    font-size: 1.4vw;
+}
+
+.main_item_descrip {
+    text-align: center;
+    height: 16vh;
+}
+
+.main_item_cart {
+    text-align: center;
+}
+
+.main_item_cart button {
+    background-color: rgb(189, 22, 22);
+    border-width: 2px;
+    margin-top: 2.5vh;
+    padding: 1vh 1.5vh;
+    border-color: black;
+    box-shadow: 2px 2px 8px 0 black;
+    border-radius: 10px;
+}
+
+.main_item_cart button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1vw;
+    font-family: 'Salsa', cursive;
+}
+
+.main_know {
+    text-align: end;
+    padding-right: 5vw;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+}
+
+.main_know a {
+    text-decoration: none;
+    color: rgb(189, 22, 22);
+    font-size: 2vw;
+}
+
+/*DESSERTS*/
+
+.dessert_name {
+    text-align: center;
+    color: rgb(189, 22, 22);
+    font-size: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.all_desserts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vw;
+}
+
+.dessert_grid {
+    display: flex;
+}
+
+.dessert_item_1,
+.dessert_item_2,
+.dessert_item_3,
+.dessert_item_4 {
+    margin: 2vh 0.8vw;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.dessert_item_wrapper {
+    background-color: rgba(255, 179, 179, 0.7);
+    padding: 1.4vw;
+    width: 20vw;
+    height: 42vh;
+}
+
+.dessert_item_wrapper:hover {
+    background-color: rgba(255, 179, 179, 0.45);
+    padding: 1.4vw 1.9vw;
+    height: 44vh;
+    transition: all 0.2s ease-in-out;
+}
+
+.dessert_item_1:hover,
+.dessert_item_2:hover,
+.dessert_item_3:hover,
+.dessert_item_4:hover {
+    margin: 1vh 0.3vw;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.dessert_item_1 {
+    background-image: url(images/Hot\ Brownie.jpeg);
+    background-size: cover;
+}
+
+.dessert_item_2 {
+    background-image: url(images/chocolate\ pancake.jpeg);
+    background-size: cover;
+}
+
+.dessert_item_3 {
+    background-image: url(images/rasmalai.jpeg);
+    background-size: cover;
+}
+
+.dessert_item_4 {
+    background-image: url(images/gulab\ jamun.jpeg);
+    background-size: cover;
+}
+
+.dessert_item_name {
+    text-align: center;
+    font-size: 1.6vw;
+    height: 12vh;
+}
+
+.dessert_item_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dessert_item_logo img {
+    height: 5vh;
+}
+
+.dessert_item_price {
+    font-size: 1.4vw;
+}
+
+.dessert_item_descrip {
+    text-align: center;
+    height: 16vh;
+}
+
+.dessert_item_cart {
+    text-align: center;
+}
+
+.dessert_item_cart button {
+    background-color: rgb(189, 22, 22);
+    border-width: 2px;
+    margin-top: 2.5vh;
+    padding: 1vh 1.5vh;
+    border-color: black;
+    box-shadow: 2px 2px 8px 0 black;
+    border-radius: 10px;
+}
+
+.dessert_item_cart button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1vw;
+    font-family: 'Salsa', cursive;
+}
+
+.dessert_know {
+    text-align: end;
+    padding-right: 5vw;
+    padding-top: 1vh;
+    padding-bottom: 8vh;
+}
+
+.dessert_know a {
+    text-decoration: none;
+    color: rgb(189, 22, 22);
+    font-size: 2vw;
+}
+
+/* INFO */
+
+.info {
+    display: flex;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+/*ABOUT*/
+
+.about {
+    width: 30vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.about_name {
+    text-align: center;
+    color: rgb(189, 22, 22);
+    font-size: 4.5vw;
+}
+
+.about_descrip p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+/*CHEFS*/
+
+.chefs {
+    width: 70vw;
+}
+
+.chefs_head {
+    font-size: 4vw;
+    color: rgb(189, 22, 22);
+    text-align: center;
+    padding-bottom: 1vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.chefs_descrip {
+    text-align: center;
+    font-size: 1.2vw;
+    padding-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.all-chefs {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.chef_card {
+    width: 60vw;
+    height: 8vw;
+    background-color: rgba(189, 22, 22, 0.5);
+    margin: 1.5vw 2vw;
+    border-radius: 2vw;
+    box-shadow: 0 0 1vw 0.2vw black;
+}
+
+.chef_card:hover {
+    margin: 1.5vw 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    transition: all 0.2s ease-in-out;
+}
+
+.chef_wrapper {
+    display: flex;
+}
+
+.chef_right {
+    padding: 1.2vw 2vw;
+}
+
+.chef_name {
+    font-size: 1.7vw;
+    text-align: center;
+    padding-bottom: 0.8vw;
+}
+
+.chef_descrip {
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+.chef_left {
+    padding: 0.8vw 2vw;
+}
+
+.chef_left img {
+    width: 6.3vw;
+    border-radius: 2000vw;
+    box-shadow: 0 0 0 0.2vw black;
+}
+
+/*FOOTER*/
+
+.footer {
+    padding-top: 2vw;
+    display: flex;
+    background-color: rgb(189, 22, 22);
+    padding-bottom: 2vw;
+}
+
+.footer_left {
+    width: 50vw;
+    padding-left: 2vw;
+}
+
+.footer_right {
+    width: 50vw;
+}
+
+.footer_left_name {
+    color: aliceblue;
+    font-size: 2.2vw;
+}
+
+.footer_left_descrip {
+    color: aliceblue;
+    font-size: 1.2vw;
+    padding-bottom: 10vw;
+}
+
+.footer_left_links a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 3vw;
+}
+
+.footer_right_name {
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+.footer_right_links {
+    text-align: center;
+}
+
+.footer_right_links a img {
+    width: 3vw;
+    height: 3vw;
+    padding: 1vw;
+}
+
+.footer_right_back {
+    text-align: center;
+    margin-top: 6vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 0.5vw 0.5vw;
+    background-color: rgba(255, 179, 179, 0.3);
+    border-radius: 2vw;
+    box-shadow: 0 0 1vw 0.1vw black;
+}
+
+.footer_right_back a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2vw;
+    padding: 0.5vw 0.5vw;
+}
+
+
+
+/* ...................... MEDIA QUERY STARTS ........................ */
+/* ...................... MEDIA QUERY STARTS ........................ */
+/* ...................... MEDIA QUERY STARTS ........................ */
+/* ...................... MEDIA QUERY STARTS ........................ */
+/* ...................... MEDIA QUERY STARTS ........................ */
+/* ...................... MEDIA QUERY STARTS ........................ */
+
+@media screen and (max-width : 1000px) {
+
+
+    /*HOME*/
+    .home {
+        flex-direction: column-reverse;
+        padding-top: 0vh;
+    }
+
+    .home_left {
+        padding: 0vh 0vw;
+        width: 100vw;
+
+    }
+
+    .home_name {
+        text-align: center;
+        font-size: 20vw;
+    }
+
+    .home_descrip {
+        text-align: center;
+        padding: 0 5vw;
+    }
+
+    .home_link a {
+        font-size: 5vw;
+        padding: 2vw 4vw;
+    }
+
+    .home_right {
+        width: 100vw;
+        text-align: center;
+    }
+
+    .home_right img {
+        text-align: center;
+        height: 60vw;
+        padding-top: 7vh;
+        padding-bottom: 3vh;
+    }
+
+
+    /*MENU*/
+    .menu_name {
+        font-size: 12vw;
+        padding-top: 3vh;
+    }
+
+    .menu_descrip {
+        font-size: 3.5vw;
+        padding: 0vw 5vw;
+    }
+
+
+    /*STARTER*/
+    .starter_name {
+        font-size: 7.5vw;
+        padding-top: 5vh;
+    }
+
+    .starter_grid {
+        display: flex;
+    }
+
+    .all_starters {
+        display: grid;
+    }
+
+    .starter_item_1,
+    .starter_item_2,
+    .starter_item_3,
+    .starter_item_4 {
+        height: 42vh;
+        margin: 2vh 2vw;
+    }
+
+    .starter_item_wrapper {
+        width: 38vw;
+        padding: 3vw;
+    }
+
+    .starter_item_wrapper:hover {
+        background-color: rgba(255, 179, 179, 0.45);
+        width: 38vw;
+        padding: 3vw;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .starter_item_1:hover,
+    .starter_item_2:hover,
+    .starter_item_3:hover,
+    .starter_item_4:hover {
+        height: 42vh;
+        margin: 2vh 2vw;
+    }
+
+
+    .starter_item_name {
+        font-size: 4vw;
+        height: 8vh;
+    }
+
+    .starter_item_descrip {
+        font-size: 1.6vh;
+        height: 15vh;
+    }
+
+    .starter_item_price {
+        font-size: 4vw;
+    }
+
+    .starter_item_cart button a {
+        font-size: 2.7vw;
+    }
+
+    .starter_know a {
+        font-size: 4.5vw;
+    }
+
+    /*MAIN*/
+    .main_name {
+        font-size: 7.5vw;
+        padding-top: 5vh;
+    }
+
+    .main_grid {
+        display: flex;
+    }
+
+    .all_main {
+        display: grid;
+    }
+
+    .main_item_1,
+    .main_item_2,
+    .main_item_3,
+    .main_item_4 {
+        height: 42vh;
+        margin: 2vh 2vw;
+    }
+
+    .main_item_wrapper {
+        width: 38vw;
+        padding: 3vw;
+    }
+
+    .main_item_wrapper:hover {
+        background-color: rgba(255, 179, 179, 0.45);
+        width: 38vw;
+        padding: 3vw;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .main_item_1:hover,
+    .main_item_2:hover,
+    .main_item_3:hover,
+    .main_item_4:hover {
+        height: 42vh;
+        margin: 2vh 2vw;
+    }
+
+    .main_item_name {
+        font-size: 4vw;
+        height: 8vh;
+    }
+
+    .main_item_descrip {
+        font-size: 1.6vh;
+        height: 15vh;
+    }
+
+    .main_item_price {
+        font-size: 4vw;
+    }
+
+    .main_item_cart button a {
+        font-size: 2.7vw;
+    }
+
+    .main_know a {
+        font-size: 4.5vw;
+    }
+
+
+    /*DESSERTS*/
+    .dessert_name {
+        font-size: 7.5vw;
+        padding-top: 5vh;
+    }
+
+    .dessert_grid {
+        display: flex;
+    }
+
+    .all_desserts {
+        display: grid;
+    }
+
+    .dessert_item_1,
+    .dessert_item_2,
+    .dessert_item_3,
+    .dessert_item_4 {
+        height: 42vh;
+        margin: 2vh 2vw;
+    }
+
+    .dessert_item_wrapper {
+        width: 38vw;
+        padding: 3vw;
+    }
+
+    .dessert_item_wrapper:hover {
+        background-color: rgba(255, 179, 179, 0.45);
+        width: 38vw;
+        padding: 3vw;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .dessert_item_1:hover,
+    .dessert_item_2:hover,
+    .dessert_item_3:hover,
+    .dessert_item_4:hover {
+        height: 42vh;
+        margin: 2vh 2vw;
+    }
+
+    .dessert_item_name {
+        font-size: 4vw;
+        height: 8vh;
+    }
+
+    .dessert_item_descrip {
+        font-size: 1.6vh;
+        height: 15vh;
+    }
+
+    .dessert_item_price {
+        font-size: 4vw;
+    }
+
+    .dessert_item_cart button a {
+        font-size: 2.7vw;
+    }
+
+    .dessert_know {
+        padding-bottom: 4vh;
+    }
+
+    .dessert_know a {
+        font-size: 4.5vw;
+    }
+
+    .info {
+        flex-direction: column;
+        padding-top: 3vh;
+    }
+
+    .about {
+        padding: 0 10vw;
+        width: 80vw;
+    }
+
+    .about_name {
+        text-align: center;
+        font-size: 10vw;
+    }
+
+    .about_descrip p {
+        font-size: 4vw;
+    }
+
+    .chefs {
+        width: 100vw;
+    }
+
+    .chefs_head {
+        padding-top: 2vh;
+        font-size: 7.3vw;
+    }
+
+    .chefs_descrip {
+        font-size: 3.5vw;
+        padding: 0 8vw;
+        padding-bottom: 2vh;
+    }
+
+    .chef_card {
+        justify-content: center;
+        width: 85vw;
+        margin: 3vh 7.5vw;
+        height: 30vw;
+    }
+
+    .chef_card:hover {
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        margin: 3vh 5vw;
+    }
+
+    .chef_left {
+        width: 25vw;
+    }
+
+    .chef_right {
+        width: 65vw;
+    }
+
+    .chef_left img {
+        width: 20vw;
+        margin: 4vw 4vw;
+    }
+
+    .chef_name {
+        font-size: 4.5vw;
+        padding-top: 1vw;
+    }
+
+    .chef_descrip {
+        font-size: 3vw;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer_left {
+        padding: 5vw 5vw;
+        width: 90vw;
+    }
+
+    .footer_left_name {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .footer_left_descrip {
+        text-align: center;
+        font-size: 3.5vw;
+        padding-bottom: 10vw;
+    }
+
+    .footer_left_links {
+        text-align: center;
+    }
+
+    .footer_left_links a {
+        font-size: 3.5vw;
+    }
+
+    .footer_right {
+        padding: 5vw 5vw;
+        width: 90vw;
+    }
+
+    .footer_right_name {
+        font-size: 6vw;
+    }
+
+    .footer_right_links {
+        padding-top: 2vw;
+    }
+
+    .footer_right_links a img {
+        width: 8vw;
+        height: 8vw;
+        padding: 1vw 3vw;
+    }
+
+    .footer_right_back {
+        padding: 2vw 0vw;
+        margin: 0 30vw;
+        margin-top: 8vw;
+    }
+
+    .footer_right_back a {
+        font-size: 4vw;
+    }
+
+}

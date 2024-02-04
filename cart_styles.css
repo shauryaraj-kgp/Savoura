@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+/*font-family: 'Salsa', cursive;*/
+
+body {
+    background-image: url(images/doodles.png);
+    margin: 0%;
+    font-family: 'Salsa', cursive;
+}
+
+/*NAVIGATION BAR*/
+
+.navbar {
+    background-color: rgb(189, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    width: 100vw;
+    height: 14vh;
+    position: fixed;
+    top: 0;
+}
+
+.navbar_left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_image img {
+    width: 11vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.navbar_name {
+    color: aliceblue;
+    padding-left: 3vh;
+    font-size: 4.2vw;
+    padding-top: 0vh;
+}
+
+.navbar_cart a img {
+    width: 6vw;
+    padding-left: 2vh;
+    padding-right: 5vh;
+}
+
+.navbar_item a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-size: 1.7vw;
+    margin-top: 1vh;
+}
+
+.navbar_item a:hover {
+    color: rgb(255, 179, 179);
+    transition: 0.2s ease-in-out;
+}
+
+/*Contents*/
+
+.contents {
+    background-color: rgba(255, 179, 179, 0.87);
+    height: 86vh;
+    margin-top: 14vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+}
+
+.contents_left {
+    width: 70vw;
+    padding: 1.8vw 2.2vw;
+}
+
+.left_name {
+    font-size: 2.5vw;
+    color: rgb(189, 22, 22);
+}
+
+.contents_right {
+    width: 30vw;
+    padding: 1.8vw 2.2vw;
+}
+
+.right_name {
+    font-size: 2.5vw;
+    text-align: center;
+    color: rgb(189, 22, 22);
+}
